@@ -1,5 +1,5 @@
 # phpcgigniter
-
+  
 投票CGI  
   
 サーバーに置いただけで動かしたいので泣く泣くCodeigniterを使う  
