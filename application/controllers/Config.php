@@ -14,10 +14,22 @@ class Config extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
-	public function new_topic($page = 'home')
+	public function new_topic()
 	{
 		$this->load->view('templates/header');
-		$this->load->view('config/index');
+		$this->load->view('config/new_topic');
 		$this->load->view('templates/footer');
+	}
+
+	public function topic_edit()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('config/new_topic');
+		$this->load->view('templates/footer');
+	}
+
+	public function create()
+	{
+		var_dump($this->input->post());
 	}
 }
